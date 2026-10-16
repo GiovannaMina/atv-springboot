@@ -21,7 +21,7 @@ public class Livro {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "ds_isbn", nullable = false, unique = true)
+    @Column(name = "ds_isbn", nullable = false)
     @JsonProperty("isbn")
     private String isbn;
 
