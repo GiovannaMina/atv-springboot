@@ -1,7 +1,5 @@
 package biblioteca.biblioteca.Model;
 
-import java.util.ArrayList;
-
 import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
